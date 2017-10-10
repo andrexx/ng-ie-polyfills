@@ -18,6 +18,6 @@ import "core-js/es7/array";
 // import requestAnimationFrame polyfill for IE9 support
 import "./raf.js";
 /** IE10 and IE11 requires the following for NgClass support on SVG elements */
-// import 'classlist.js';  // Run `npm install --save classlist.js`.
+import 'classlist.js';  // Run `npm install --save classlist.js`.
 /** IE10 and IE11 requires the following to support `@angular/animation`. */
 import "web-animations-js"; // Run `npm install --save web-animations-js`.
