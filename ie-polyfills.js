@@ -15,6 +15,8 @@ import "core-js/es6/weak-map";
 import "core-js/es6/set";
 import "core-js/es6/promise";
 import "core-js/es7/array";
+// import requestAnimationFrame polyfill for IE9 support
+import "./raf.js";
 /** IE10 and IE11 requires the following for NgClass support on SVG elements */
 // import 'classlist.js';  // Run `npm install --save classlist.js`.
 /** IE10 and IE11 requires the following to support `@angular/animation`. */
