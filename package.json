@@ -6,16 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
-    "build-ie-polyfills": "node --max-old-space-size=4096 node_modules/webpack/bin/webpack.js -p ie-polyfills.js ie-polyfills.min.js"
+    "build": "node --max-old-space-size=4096 node_modules/webpack/bin/webpack.js -p ie-polyfills.js ie-polyfills.min.js"
   },
   "author": "adrii.chumak",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "~3.5.5"
+    "webpack": "~3.10.0"
   },
   "dependencies": {
-    "classlist.js": "^1.1.20150312",
-    "core-js": "~2.5.1",
-    "web-animations-js": "~2.3.1"
+    "classlist.js": "1.1.20150312",
+    "core-js": "2.5.3",
+    "web-animations-js": "2.3.1"
   }
 }
