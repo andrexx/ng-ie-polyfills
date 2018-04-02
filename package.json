@@ -5,17 +5,17 @@
   "main": "ie-polyfills.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack",
-    "build": "node --max-old-space-size=4096 node_modules/webpack/bin/webpack.js -p ie-polyfills.js ie-polyfills.min.js"
+    "build": "webpack"
   },
   "author": "adrii.chumak",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "~3.10.0"
+    "webpack": "~4.4.1",
+    "webpack-cli": "~2.0.13"
   },
   "dependencies": {
     "classlist.js": "1.1.20150312",
-    "core-js": "2.5.3",
+    "core-js": "2.5.4",
     "web-animations-js": "2.3.1"
   }
 }
